@@ -1,0 +1,9 @@
+{
+  "name": "vetur-meike",
+  "version": "0.0.1",
+  "description": "easy to use meike-package.",
+  "main": "index.js",
+  "repository": "https://github.com/imsunhao/vetur-meike",
+  "license": "MIT",
+  "private": false
+}
