@@ -1,9 +1,20 @@
 {
-  "name": "vetur-meike",
-  "version": "0.0.1",
+  "name": "@bestminr/vetur-meike",
+  "version": "0.0.0",
   "description": "easy to use meike-package.",
   "main": "index.js",
   "repository": "https://github.com/imsunhao/vetur-meike",
   "license": "MIT",
+  "vetur": {
+    "tags": "dist/vetur/tags.json",
+    "attributes": "dist/vetur/attributes.json"
+  },
+  "scripts": {
+    "publish": "npm publish --access=public",
+    "version": "standard-version -r patch"
+  },
+  "files": [
+    "dist/*"
+  ],
   "private": false
 }
